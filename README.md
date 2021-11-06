@@ -5,7 +5,9 @@ Let you review things you have done on your computer.
 Computers are getting so addictive that we all have been entrained at some point. Destop recording let us see how our precious time has been spent. However, normal screen record methods are sometimes heavy on resources, and we can't afford to lose 1 hour reviewing things from the previous one - too unefficient, and hence this module.
 
 ## Examples
-![](demo/demo.mp4)
+
+https://user-images.githubusercontent.com/87116762/140607481-9c0874ac-ef07-4d58-9ff2-7915d4b56e09.mp4
+
 <br>
 
 There is no sound (obviously), and the FPS is terrible. On the other hand, it is very light on CPU, memory and disk usage. The video quality is high enough to understand what was going on, thou.
