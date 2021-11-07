@@ -48,6 +48,13 @@ class whid:
             _colours.prLightPurple(f"Saved screenshots to {self.WORK_DIR}")
             _colours.prGreen("Recording session completed.\n")
 
+    def _naturalSort(self, sortingList: list[str]) -> list:
+        import re
+
+        convert = lambda text: int(text) if text.isdigit() else text.lower()
+        alphanum_key = lambda key: [convert(c) for c in re.split("([0-9]+)", key)]
+        return sorted(sortingList, key=alphanum_key)
+
     def videoMaking(
         self,
         fps: int = 4,
@@ -64,7 +71,7 @@ class whid:
 
         imageFiles = [
             os.path.join(imageFolder, img)
-            for img in sorted(os.listdir(imageFolder))
+            for img in self._naturalSort(os.listdir(imageFolder))
             if img.endswith(".png")
         ]
         video = moviepy.video.io.ImageSequenceClip.ImageSequenceClip(
