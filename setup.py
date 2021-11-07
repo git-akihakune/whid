@@ -34,6 +34,8 @@ setup(
         'pyautogui',
         'moviepy',
         'argparse',
+        'plyer',
+        'tqdm',
     ],
     python_requires='>=3.6'
 )

@@ -3,6 +3,9 @@ Let you review things you have done on your computer.
 
 ## Why?
 Computers are getting so addictive that we all have been entrained at some point. Destop recording let us see how our precious time has been spent. However, normal screen record methods are sometimes heavy on resources, and we can't afford to lose 1 hour reviewing things from the previous one - too unefficient, and hence this module.
+<br>
+
+On the other hand, it can also be used as a TUI [pomodoro timer](https://todoist.com/productivity-methods/pomodoro-technique).
 
 ## Examples
 

@@ -13,8 +13,8 @@ def main():
     parser.add_argument('-F', '--fps', default=4, help="FPS of the final video")
     parser.add_argument('-n', '--name', default='what-i-have-done.mp4', help="Name of the final video")
     parser.add_argument('-s', '--save', default='.', help="Saving directory")
-    parser.add_argument('-v', '--verbose', default="True", help="Set verbosity of the program")
-    parser.add_argument('-c', '--clean', default="True", help="Automatically clean up temporary images")
+    parser.add_argument('-v', '--verbose', default="True", help="Set verbosity of the program, True/False")
+    parser.add_argument('-c', '--clean', default="True", help="Automatically clean up temporary images, True/False")
     args = parser.parse_args()
 
     # Get arguments

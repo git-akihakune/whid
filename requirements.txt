@@ -1,3 +1,5 @@
 pyautogui
 moviepy
 argparse
+plyer
+tqdm
