@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/87116762/140607481-9c0874ac-ef07-4d58-
 
 <br>
 
-There is no sound (obviously), and the FPS is terrible. On the other hand, it is very light on CPU, memory and disk usage. The video quality is high enough to understand what was going on, thou.
+There is no sound (obviously). On the other hand, it is very light on CPU, memory and disk usage. The video quality is high enough to understand what was going on, thou. You can also change the video FPS from arguments.
 <br>
 
 ## Installation
@@ -54,6 +54,9 @@ For more optional arguments, check the `help` command.
 ```bash
 python -m whid --help
 ```
+
+## GUI
+If you prefer a GUI application over a CLI one, please check out [FrameRecorder](https://github.com/mehmet-mert/FrameRecorder). It's a bit heavier, but it has a beautiful, intuitive GUI.
 
 ## Development
 - The module's supposed to work cross-platform, but due to the lack of access to Mac devices, I haven't tested it on OSX/MacOS. It would be deeply appreciated if you can test it on your Mac and report back issues (if any).
